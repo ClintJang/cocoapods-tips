@@ -1,5 +1,5 @@
 # CocoaPods 유용한 정보 모음입니다.
-[![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/clintjang/cocoapods-tips/blob/master/LICENSE) [![CocoaPods tips](https://img.shields.io/badge/CocoaPods-Tips-orange.svg?style=flat)](https://cocoapods.org/) 
+[![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/clintjang/cocoapods-tips/blob/master/LICENSE) [![CocoaPods tips](https://img.shields.io/badge/CocoaPods-Tips-orange.svg?style=flat)](https://cocoapods.org/) [![Swift 4](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://swift.org) 
 
 [CocoaPods](https://cocoapods.org/)를 감사하게 사용하고 있습니다. 😁<br />
 사용하면서 유용했던 정보들을 잘 정리해 두고 싶어서 작성했습니다.<br />
