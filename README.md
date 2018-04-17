@@ -43,6 +43,8 @@
 
 [#2-2 Debugging 에서만 사용하기](https://github.com/ClintJang/cocoapods-tips#2-2-Debugging-에서만-사용하기)<br />
 
+[#2-3 git의 repository에서 직접 가져오기](https://github.com/ClintJang/cocoapods-tips#2-3-git의-repository에서-직접-가져오기)<br />
+
 <br />
 <br />
 
@@ -268,4 +270,30 @@ or 다른 옵션도 가능하죠.
 ```
 pod '라이브러리명', '~> 4.0', :configurations => ['Debug']
 ```
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+
+## [#2-3 git의 repository에서 직접 가져오기](https://github.com/ClintJang/cocoapods-tips#2-3-git의-repository에서-직접-가져오기)
+
+git에 직접 접근해서 가져오기
+
+```
+pod '라이브러리명', :git => 'https://github.com/라이브러리경로'
+```
+or 그 안의 브런치의 최신 라이브러리가 필요하다면
+
+```
+pod '라이브러리명', :git => 'https://github.com/라이브러리경로', :branch => '브런치명'
+```
+or tag 정보까지의 라이브러리가 필요하다면?
+
+```
+pod '라이브러리명', :git => 'https://github.com/라이브러리경로', :tag => '1.0.0'
+```
+
+or 원하는 commit된 부분까지가 필요하다면?
+
+```
+pod '라이브러리명', :git => 'https://github.com/라이브러리경로', :commit => '0e380832ab'
+```
+
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
