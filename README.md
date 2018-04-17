@@ -179,7 +179,7 @@ $ ls -a
 $ vi .gitignore
 ```
 
-내용의 셈플을 [링크](https://github.com/ClintJang/cocoapods-tips)은 아래와 같습니다.
+내용의 셈플을 [샘플 .gitignore](https://github.com/ClintJang/cocoapods-tips/blob/master/.gitignore)은 아래와 같습니다.
 - .gitignore
 ```
 # Pods 관련 (pod install or pod update 해서 자동 생성된 파일들) 
@@ -192,7 +192,10 @@ JWSCocoapodsTips/Pods/
 xcschememanagement.plist
 contents.xcworkspacedata
 
+# 필요한 내용 더 추가 
 ```
+
+4. 설정이 되면 이제 git commit 할때 관련 불필요한 파일은 나타나지 않을거에요~
 
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
