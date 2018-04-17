@@ -23,6 +23,9 @@
 
 [# 팟 셋팅이 꼬였을때](https://github.com/ClintJang/cocoapods-tips#-팟-셋팅이-꼬였을때)
 <br />
+
+[# 저장소별 무시 목록 작성하기](https://github.com/ClintJang/cocoapods-tips#-저장소별-무시-목록-작성하기)
+<br />
 <br />
 
 > 터미널 명령어
@@ -147,6 +150,50 @@ $ pod update
 ```
 
 6. 만들어진 프로젝트명.xcworkspace를 실행해서 확인합니다.
+
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+
+## [# 저장소별 무시 목록 작성하기](https://github.com/ClintJang/cocoapods-tips#-저장소별-무시-목록-작성하기)
+
+.gitignore 파일을 생성해 두면 편리합니다. <br />
+.gitignore 파일이란 Git 버전 관리에서 제외할 파일 목록을 지정하는 파일입니다.<br />
+. 표시는 숨김파일을 의미합니다.<br />
+```
+Finder에서 아래 단축키를 사용하면 숨겨진 파일이 보여집니다.
+
+단축키 : shift +command + .
+```
+
+git 파일이 있는 최상위 디렉토리에서 터미널을 실행시켜 내용을 작성합니다.
+
+1. .gitignore 파일을 생성한다.
+```
+$ touch .gitignore 
+```
+2. 만들어졌는 지 확인한다면? 
+```
+$ ls -a 
+```
+3. 편한 방법으로 해당 파일을 편집합니다.
+```
+$ vi .gitignore
+```
+
+내용의 셈플을 [링크](https://github.com/ClintJang/cocoapods-tips)은 아래와 같습니다.
+- .gitignore
+```
+# Pods 관련 (pod install or pod update 해서 자동 생성된 파일들) 
+Podfile.lock
+JWSCocoapodsTips.xcworkspace	
+JWSCocoapodsTips/Pods/			
+
+# xcodeproj 안의 불필요파일
+*.xcuserstate
+xcschememanagement.plist
+contents.xcworkspacedata
+
+```
+
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
 
