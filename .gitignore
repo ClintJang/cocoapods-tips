@@ -1,0 +1,9 @@
+# Pods 관련 (pod install or pod update 해서 자동 생성된 파일들) 
+Podfile.lock
+JWSCocoapodsTips.xcworkspace
+JWSCocoapodsTips/Pods/
+
+# xcodeproj 안의 불필요파일
+*.xcuserstate
+xcschememanagement.plist
+contents.xcworkspacedata
