@@ -102,15 +102,22 @@ target '프로젝트명' do
 end
 ```
 
-5. Pod를 이용해서 라이브러리 설치하기
+5. 참고로 지원하는 라이브러리가 있는지 찾아 볼때?
+```
+$ pod search 라이브러리명
+```
+ 
+6. Pod를 이용해서 라이브러리 설치하기
 ```
 $ pod install
 ```
-6. 만들어진 워크스페이스 파일 실행
+7. 만들어진 워크스페이스 파일 실행
 	1. 콜솔 명령어가 아닌 그냥 파일을 찾아 실행하면 됩니다.
 ```
 $ . 프로젝트명.xcworkspace
 ```
+or 그냥 클릭으로 실행 
+<img width="280" height="135" src="/Image/xcworkspace_ok.png"></img>
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
 
