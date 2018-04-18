@@ -116,7 +116,8 @@ $ pod install
 ```
 $ . 프로젝트명.xcworkspace
 ```
-or 그냥 클릭으로 실행 
+- or 그냥 클릭으로 프로젝트명.xcworkspace 파일 실행 
+
 <img width="280" height="135" src="/Image/xcworkspace_ok.png"></img>
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
