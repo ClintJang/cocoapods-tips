@@ -168,8 +168,8 @@ GUI에서 Podfile 관리와 Pod Install, Update가 가능합니다.
     <th>삭제 전 프로젝트 파일의 패키지 내용</th>
   </tr>
   <tr>
-  	<td><img width="275" height="84" src="/Image/pod_error_after01.png"></img></td>
-    <td><img width="324" height="77" src="/Image/pod_error_after02.png"></img></td>
+  	<td><img width="275" height="84" src="/Image/pod_error_before01.png"></img></td>
+    <td><img width="324" height="77" src="/Image/pod_error_before02.png"></img></td>
   </tr>
 </table>
 
