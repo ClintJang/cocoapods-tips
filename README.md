@@ -155,12 +155,37 @@ GUI에서 Podfile 관리와 Pod Install, Update가 가능합니다.
 1. Pods 폴더포함 모두 삭제
 2. Podfile.lock 파일 삭제
 3. 프로젝트명.xcworkspace 파일 삭제
-4. AIAVitality.xcodeproj에 마우스를 올리고 오른쪽 클릭, 아래 진행
+4. 프로젝트명.xcodeproj에 마우스를 올리고 오른쪽 클릭, 아래 진행
 	1. 패키지 내용보기
 	2. project.pbxproj 과 기타 파일들이 보여질 것입니다.
 	3. project.pbxproj만 남기고 다른 파일 모두 삭제
 		1. project.pbxproj 파일 1개는 꼭 남기세요.
 		2. 나머지는 과감하게 지우세요.
+
+<table style="width:100%">
+  <tr>
+	<th>삭제 전 프로젝트의 폴더</th> 
+    <th>삭제 전 프로젝트 파일의 패키지 내용</th>
+  </tr>
+  <tr>
+  	<td><img width="275" height="84" src="/Image/pod_error_after01.png"></img></td>
+    <td><img width="324" height="77" src="/Image/pod_error_after02.png"></img></td>
+  </tr>
+</table>
+
+<br />
+
+<table style="width:100%">
+  <tr>
+	<th>삭제 후 프로젝트의 폴더</th> 
+    <th>삭제 후 프로젝트 파일의 패키지 내용</th>
+  </tr>
+  <tr>
+  	<td><img width="272" height="58" src="/Image/pod_error_after01.png"></img></td>
+    <td><img width="327" height="82" src="/Image/pod_error_after02.png"></img></td>
+  </tr>
+</table>
+
 5. Podfile이 있는 폴더에서 다시 Install Or Update 실행
 	1. 전 보통 Install을 합니다.
 
@@ -170,7 +195,9 @@ or
 $ pod update
 ```
 
+
 6. 만들어진 프로젝트명.xcworkspace를 실행해서 확인합니다.
+
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
 
