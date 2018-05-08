@@ -47,6 +47,8 @@
 
 [#2-3 git의 repository에서 직접 가져오기](https://github.com/ClintJang/cocoapods-tips#2-3-git의-repository에서-직접-가져오기)<br />
 
+[#2-4 xcode에서 pods 프로젝트 경고 없애기](https://github.com/ClintJang/cocoapods-tips#2-4-xcode에서-pods-프로젝트-경고-없애기)<br />
+
 <br />
 <br />
 
@@ -367,6 +369,40 @@ pod '라이브러리명', :git => 'https://github.com/라이브러리경로', :c
 ```
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+
+<br />
+<br />
+
+## [#2-4 xcode에서 pods 프로젝트 경고 없애기](https://github.com/ClintJang/cocoapods-tips#2-4-xcode에서-pods-프로젝트-경고-없애기)
+
+Podfile에서 "inhibit_all_warnings!" 만 추가하면 간단하게 경고가 사라집니다.
+1. inhibit_all_warnings! 코드 추가 
+```
+
+target '프로젝트명' do
+  # 스위프트를 사용하지 않고 동적 라이브러리를 이용하지 않는다면 아래 구문을 주석처리 합니다
+  use_frameworks!
+  
+  # xcode에서 pods의 모든 프로젝트 경고 없애기
+  inhibit_all_warnings!
+
+end
+```
+
+or 라이브러리 별로(개별로).., 원하는 라이브러리만 경고를 사라지게 하고 싶다면?
+
+```
+pod '라이브러리명', :inhibit_warnings => true
+```
+
+2. pod install을 다시 하고
+```
+$ pod install
+```
+
+3. 빌드실행
+
+
 
 <br />
 <br />

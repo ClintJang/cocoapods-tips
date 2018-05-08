@@ -19,6 +19,13 @@ def core_pods
     
     # 유용한 날짜 관련 라이브러리입니다.
     pod 'SwiftDate'
+    
+end
+
+def ui_pods
+    
+    # 안드로이드의 토스트 기능을 쉽게 사용하게 해주는 라이브러리 입니다.
+    pod 'Toaster'
 end
 
 # 2-2 Debugging 에서만 사용하기
@@ -27,14 +34,26 @@ def debugging_pods
 end
 
 # 2-3 git의 repository에서 직접 가져오기
-def debugging_pods
+def repository_pods
     pod 'Bolts-Swift', :git => 'https://github.com/BoltsFramework/Bolts-Swift'
+end
+
+# 2-4 xcode에서 pods 프로젝트 경고 없애기, ..에서 개별 경고 없애기 테스트
+def warning_pods
+    # 7개의 경고가 있었음.
+#    pod 'CleanroomLogger', '~> 5.1.1'
+
+    # 7개의 경고가 사라짐
+    pod 'CleanroomLogger', '~> 5.1.1', :inhibit_warnings => true
 end
 
 target 'JWSCocoapodsTips' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   # 스위프트를 사용하지 않고 동적 라이브러리를 이용하지 않는다면 아래 구문을 주석처리 합니다
   use_frameworks!
+  
+  # xcode에서 pods의 모든 프로젝트 경고 없애기
+#  inhibit_all_warnings!
 
   # Pods for JWSCocoapodsTips
   
@@ -42,5 +61,15 @@ target 'JWSCocoapodsTips' do
   #2-1 def 사용
   network_pods
   core_pods
+  ui_pods
+  
+  # 2-2 Debugging 에서만 사용하기
   debugging_pods
+  
+  # 2-3 git의 repository에서 직접 가져오기
+  repository_pods
+  
+  # 2-4 xcode에서 pods 프로젝트 경고 없애기, ..에서 개별 경고 없애기 테스트
+  warning_pods
+
 end
