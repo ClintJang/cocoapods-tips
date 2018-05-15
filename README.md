@@ -249,6 +249,14 @@ contents.xcworkspacedata
 
 4. 설정이 되면 이제 git commit 할때 관련 불필요한 파일은 나타나지 않을거에요~
 
+그리고 이런설정을 쉽게 할 수 있는 킹왕짱 사이트가 있습니다. <br />
+그것은 깃이그노어 닷 아이오를 웹 주소에 치시면 됩니다. <br />
+- 링크 : http://gitignore.io/ <br />
+그리고 아래 이미지와 같이 검색어를 추가하고 "Create" 버튼을 누르시면 자동 완성된 코드가 나옵니다.<br />
+여기에 필요한 내용을 좀 더 추가하시면 멋진 소스관리가 되실 것 입니다.<br />
+
+<img width="458" height="133" src="/Image/pod_gitignore_create.png">
+<br />
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
 
