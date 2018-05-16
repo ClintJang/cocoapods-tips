@@ -43,6 +43,9 @@ swift는 버전이 계속 변하고 있습니다. 만약 라이브러리 개발�
 [#1-4 환경정보 보기](https://github.com/ClintJang/cocoapods-tips#1-4-환경정보-보기)<br />
 
 [#1-5 install vs update](https://github.com/ClintJang/cocoapods-tips#1-5-install-vs-update)<br />
+
+[#1-6 오직 한개의 원하는 라이브러리만 업데이트 하기](https://github.com/ClintJang/cocoapods-tips#1-6-오직-한개의-원하는-라이브러리만-업데이트-하기)<br />
+
 <br />
 
 > Podfile 작성 팁
@@ -349,6 +352,28 @@ $ pod env
 	- 모든 파일을 Pod 저장소(Repositories)에서 새로운 버전이 있으면 최신으로 업데이트 합니다.
 	- Podfile에 '~>x.y' 과 같이 제한을 걸었다면, 제한 된 버전까지만 업데이트가 되겠지요.
 
+### 저는 사용할 때는..
+Podfile 에 작성할 때는 pod 'MyPod', '~>1.2' 제한을 두어서 항상 자동 최신으로 자동업데이트가 되지 않도록 해두도록 노력하고, update 보다는 install 을 우선 사용합니다. 
+
+그리고 필요하면 아래의 1-6에서 개별 업데이트도 가능하니, 라이브러리별 업데이트만 사용하기도 합니다. 
+
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+
+<br />
+<br />
+
+## [#1-6 오직 한개의 원하는 라이브러리만 업데이트 하기](https://guides.cocoapods.org/using/pod-install-vs-update.html)
+
+> > 업데이트 다음에 라이브러리 명을 적습니다. 
+
+```
+$ pod update [PODNAME]
+```
+ex)
+
+```
+$ pod update AFNetworking
+```
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
 
