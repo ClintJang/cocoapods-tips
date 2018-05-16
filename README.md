@@ -41,6 +41,8 @@ swift는 버전이 계속 변하고 있습니다. 만약 라이브러리 개발�
 [#1-3 버전 바꾸기](https://github.com/ClintJang/cocoapods-tips#1-3-버전-바꾸기)<br />
 
 [#1-4 환경정보 보기](https://github.com/ClintJang/cocoapods-tips#1-4-환경정보-보기)<br />
+
+[#1-5 install vs update](https://github.com/ClintJang/cocoapods-tips#1-5-install-vs-update)<br />
 <br />
 
 > Podfile 작성 팁
@@ -330,6 +332,37 @@ $ pod env
 $ cd 프로젝트경로
 $ pod env
 ```
+
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+
+<br />
+<br />
+
+## [#1-5 install vs update](https://guides.cocoapods.org/using/pod-install-vs-update.html)
+> 제가 현재 이해하고 있는 내용을 적었습니다.
+
+아래의 3가지 표현이 실제적으로 모두 같은 기능을 수행합니다.
+
+```
+$ pod update --no-repo-update
+
+와 
+
+$ pod install
+
+와
+
+$ pod install --no-repo-update
+```
+
+- 공통점은 ..
+> 둘다 Pod PODNAME 기준으로 설치 및 삭제를 수행합니다. 
+
+- 차이점은 ..
+	- "pod install" : Podfile.lock 파일을 기준으로(고려해서) 설치를 하는 것
+	- "pod update" : Pod 저장소(Repositories)에서 새로운 버전이 있으면 업데이트 하는 것
+
+> "pod update"에 "--no-repo-update" 를 추가하게 되면 Pod 저장소를 확인하지 않고 Pod PODNAME 기준으로 진행하기 때문에 실제적으로 "pod install" 과 같은 기능을 수행하게됩니다.<br />
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
 
