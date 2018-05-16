@@ -339,30 +339,16 @@ $ pod env
 <br />
 
 ## [#1-5 install vs update](https://guides.cocoapods.org/using/pod-install-vs-update.html)
-> 제가 현재 이해하고 있는 내용을 적었습니다.
+> Podfile.lock 기준으로 업데이트 하느냐 마느냐의 차이입니다. <br />
+둘다 기본적으로 Podfile 기준으로 진행합니다.
 
-아래의 3가지 표현이 실제적으로 모두 같은 기능을 수행합니다.
+- "pod install" 
+	- Podfile.lock 파일을 기준으로(고려해서) 설치를 합니다.
+	- 기존에 설치된 라이브러리의 변경점이 있더라도 Podfile.lock에 기존 설정정보가 있다면 업데이트 하지 않습니다. (remove 후에 install 다시해야됩니다.)
+- "pod update"
+	- 모든 파일을 Pod 저장소(Repositories)에서 새로운 버전이 있으면 최신으로 업데이트 합니다.
+	- Podfile에 '~>x.y' 과 같이 제한을 걸었다면, 제한 된 버전까지만 업데이트가 되겠지요.
 
-```
-$ pod update --no-repo-update
-
-와 
-
-$ pod install
-
-와
-
-$ pod install --no-repo-update
-```
-
-- 공통점은 ..
-> 둘다 Pod PODNAME 기준으로 설치 및 삭제를 수행합니다. 
-
-- 차이점은 ..
-	- "pod install" : Podfile.lock 파일을 기준으로(고려해서) 설치를 하는 것
-	- "pod update" : Pod 저장소(Repositories)에서 새로운 버전이 있으면 업데이트 하는 것
-
-> "pod update"에 "--no-repo-update" 를 추가하게 되면 Pod 저장소를 확인하지 않고 Pod PODNAME 기준으로 진행하기 때문에 실제적으로 "pod install" 과 같은 기능을 수행하게됩니다.<br />
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
 
