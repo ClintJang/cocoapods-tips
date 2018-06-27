@@ -207,6 +207,16 @@ $ pod update
 
 6. 만들어진 프로젝트명.xcworkspace를 실행해서 확인합니다.
 
+- 만약 위 방법으로 안된다면
+
+1. Xcode 실행
+2. 상단 메뉴에서 Xcode - Preferences 실행
+3. Location 탭에 -> Derived Data 가 있어요. 
+	1. /Users/사용자명/Library/Developer/Xcode/DerivedData .. 그리고 화살표 누르면 폴더로 이동하는 데
+	2. DerivedData 이 폴더 전체를 지우세요. 
+		1. 안전하는.. 빌드 오류가 발생하는 프로젝트의 DerivedData 만을 삭제하면 됩니다.
+		2. DerivedData 폴더 전체를 지우면 EditorKit(문법 강조 및 자동완성이 동작하지 않는 치명적인 부작용)이 문제가 있다고 하는 내용을 봤는 데, 저는 반대로 자동완성이 되지 않는 경우에 DerivedData 이 폴더 전체를 지우고 해결되는 경우를 많이 경험했습니다.  
+<br />
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
 
