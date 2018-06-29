@@ -178,7 +178,7 @@ GUI에서 Podfile 관리와 Pod Install, Update가 가능합니다.
   </tr>
   <tr>
   	<td><img width="305" height="136" src="/Image/pod_error_before03.png"></img></td>
-    <td><img width="264" height="77" src="/Image/pod_error_before04.png"><br /><img width="324" height="102" src="/Image/pod_error_before05.png"></img></td>
+    <td><img width="324" height="77" src="/Image/pod_error_before04.png"><br /><img width="264" height="102" src="/Image/pod_error_before05.png"></img></td>
   </tr>
 </table>
 
