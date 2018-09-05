@@ -18,52 +18,52 @@ swift는 버전이 계속 변하고 있습니다. 만약 라이브러리 개발�
 <br /><br />
 
 ## 목차
-[# 기본적인 설치방법](https://github.com/ClintJang/cocoapods-tips#-기본적인-설치방법)<br />
+[# 기본적인 설치방법](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#-기본적인-설치방법)<br />
 
-[# 프로젝트 생성과 초기셋팅방법](https://github.com/ClintJang/cocoapods-tips#-프로젝트-생성과-초기셋팅방법)<br />
+[# 프로젝트 생성과 초기셋팅방법](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#-프로젝트-생성과-초기셋팅방법)<br />
 
-[# 맥용 프로그램](https://github.com/ClintJang/cocoapods-tips#-맥용-프로그램)
+[# 맥용 프로그램](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#-맥용-프로그램)
 <br />
 
-[# 팟 셋팅이 꼬였을때](https://github.com/ClintJang/cocoapods-tips#-팟-셋팅이-꼬였을때)
+[# 팟 셋팅이 꼬였을때](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#-팟-셋팅이-꼬였을때)
 <br />
 
-[# 저장소별 무시 목록 작성하기](https://github.com/ClintJang/cocoapods-tips#-저장소별-무시-목록-작성하기)
+[# 저장소별 무시 목록 작성하기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#-저장소별-무시-목록-작성하기)
 <br />
 <br />
 
 > 터미널 명령어
 
-[#1-1 버전정보 확인하기](https://github.com/ClintJang/cocoapods-tips#1-1-버전정보-확인하기)<br />
+[#1-1 버전정보 확인하기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#1-1-버전정보-확인하기)<br />
 
-[#1-2 최신버전으로 업데이트 하기](https://github.com/ClintJang/cocoapods-tips#1-2-최신버전으로-업데이트-하기)<br />
+[#1-2 최신버전으로 업데이트 하기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#1-2-최신버전으로-업데이트-하기)<br />
 
-[#1-3 버전 바꾸기](https://github.com/ClintJang/cocoapods-tips#1-3-버전-바꾸기)<br />
+[#1-3 버전 바꾸기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#1-3-버전-바꾸기)<br />
 
-[#1-4 환경정보 보기](https://github.com/ClintJang/cocoapods-tips#1-4-환경정보-보기)<br />
+[#1-4 환경정보 보기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#1-4-환경정보-보기)<br />
 
-[#1-5 install vs update](https://github.com/ClintJang/cocoapods-tips#1-5-install-vs-update)<br />
+[#1-5 install vs update](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#1-5-install-vs-update)<br />
 
-[#1-6 오직 한개의 원하는 라이브러리만 업데이트 하기](https://github.com/ClintJang/cocoapods-tips#1-6-오직-한개의-원하는-라이브러리만-업데이트-하기)<br />
+[#1-6 오직 한개의 원하는 라이브러리만 업데이트 하기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#1-6-오직-한개의-원하는-라이브러리만-업데이트-하기)<br />
 
 <br />
 
 > Podfile 작성 팁
 
-[#2-1 def 사용](https://github.com/ClintJang/cocoapods-tips#2-1-def-사용)<br />
+[#2-1 def 사용](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#2-1-def-사용)<br />
 
-[#2-2 Debugging 에서만 사용하기](https://github.com/ClintJang/cocoapods-tips#2-2-Debugging-에서만-사용하기)<br />
+[#2-2 Debugging 에서만 사용하기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#2-2-Debugging-에서만-사용하기)<br />
 
-[#2-3 git의 repository에서 직접 가져오기](https://github.com/ClintJang/cocoapods-tips#2-3-git의-repository에서-직접-가져오기)<br />
+[#2-3 git의 repository에서 직접 가져오기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#2-3-git의-repository에서-직접-가져오기)<br />
 
-[#2-4 xcode에서 pods 프로젝트 경고 없애기](https://github.com/ClintJang/cocoapods-tips#2-4-xcode에서-pods-프로젝트-경고-없애기)<br />
+[#2-4 xcode에서 pods 프로젝트 경고 없애기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#2-4-xcode에서-pods-프로젝트-경고-없애기)<br />
 
 <br />
 <br />
 
 > 코코아팟츠에 자신의 라이브러리 등록하기
 
-[#3-1 코코아팟츠에 자신의 라이브러리 등록해본 과정](https://github.com/ClintJang/cocoapods-tips#3-1-코코아팟츠에-자신의-라이브러리-등록해본-과정)<br />
+[#3-1 코코아팟츠에 자신의 라이브러리 등록해본 과정](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#3-1-코코아팟츠에-자신의-라이브러리-등록해본-과정)<br />
 
 <br />
 <br />
@@ -89,7 +89,7 @@ $ pod setup
 기본적인 사용을 위한 설정을 완료했습니다. 이제 xcode에 라이브러리 설치가 가능합니다.
 초기 프로젝트, Pods 최신버전, 베타버전, 버전 변경은 아래에서 확인해주세요.
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
 ## [# 프로젝트 생성과 초기셋팅방법](https://guides.cocoapods.org/using/using-cocoapods.html)
 
@@ -138,7 +138,7 @@ $ . 프로젝트명.xcworkspace
 
 <img width="280" height="135" src="/Image/xcworkspace_ok.png"></img>
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
 ## [# 맥용 프로그램](https://cocoapods.org/app)
 
@@ -151,9 +151,9 @@ GUI에서 Podfile 관리와 Pod Install, Update가 가능합니다.
 
 <img width="366" height="322" src="/Image/cocoapodsApp00.png"></img>
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
-## [# 팟 셋팅이 꼬였을때](https://github.com/ClintJang/cocoapods-tips#-Pod셋팅이-꼬였을때)
+## [# 팟 셋팅이 꼬였을때](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#-Pod셋팅이-꼬였을때)
 
 이것은 제가 사용하는 방법입니다.
 - Podfile 파일이 있는 폴더 기준입니다.
@@ -218,9 +218,9 @@ $ pod update
 		2. DerivedData 폴더 전체를 지우면 EditorKit(문법 강조 및 자동완성이 동작하지 않는 치명적인 부작용)이 문제가 있다고 하는 내용을 봤는 데, 저는 반대로 자동완성이 되지 않는 경우에 DerivedData 이 폴더 전체를 지우고 해결되는 경우를 많이 경험했습니다.  
 <br />
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
-## [# 저장소별 무시 목록 작성하기](https://github.com/ClintJang/cocoapods-tips#-저장소별-무시-목록-작성하기)
+## [# 저장소별 무시 목록 작성하기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#-저장소별-무시-목록-작성하기)
 
 .gitignore 파일을 생성해 두면 편리합니다. <br />
 .gitignore 파일이란 Git 버전 관리에서 제외할 파일 목록을 지정하는 파일입니다.<br />
@@ -273,12 +273,12 @@ contents.xcworkspacedata
 <img width="458" height="133" src="/Image/pod_gitignore_create.png">
 <br />
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
 <br />
 <br />
 
-## [#1-1 버전정보 확인하기](https://github.com/ClintJang/cocoapods-tips#1-1-버전정보-확인하기)
+## [#1-1 버전정보 확인하기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#1-1-버전정보-확인하기)
 
 
 버전을 확인합니다.
@@ -292,9 +292,9 @@ Gems 의 상세한 버전을 원할 경우 입니다.
 $ gem which cocoapods
 ```
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
-## [#1-2 최신버전으로 업데이트 하기](https://github.com/ClintJang/cocoapods-tips#1-2-최신버전으로-업데이트-하기)
+## [#1-2 최신버전으로 업데이트 하기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#1-2-최신버전으로-업데이트-하기)
 
 
 최신버전으로 설치합니다.
@@ -302,9 +302,9 @@ $ gem which cocoapods
 ```
 $ [sudo] gem install cocoapods --pre
 ```
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
-## [#1-3 버전 바꾸기](https://github.com/ClintJang/cocoapods-tips#1-3-버전-바꾸기)
+## [#1-3 버전 바꾸기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#1-3-버전-바꾸기)
 
 제거하고 설치를 하려면 아래와 같이 하면 됩니다.
 1. 먼저, 삭제합니다.
@@ -326,9 +326,9 @@ pods가 설치되어있고, 바로 버전을 바꾸고 싶다면!
 $ pod _1.3.1_ setup
 ```
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
-## [#1-4 환경정보 보기](https://github.com/ClintJang/cocoapods-tips#1-4-환경정보-보기)
+## [#1-4 환경정보 보기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#1-4-환경정보-보기)
 
 Pod 설정 정보가 보고 싶다면
 1. 임의 경로에서 실행
@@ -346,7 +346,7 @@ $ cd 프로젝트경로
 $ pod env
 ```
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
 <br />
 <br />
@@ -367,7 +367,7 @@ Podfile 에 작성할 때는 pod 'MyPod', '~>1.2' 제한을 두어서 항상 자
 
 그리고 필요하면 아래의 1-6에서 개별 업데이트도 가능하니, 라이브러리별 업데이트만 사용하기도 합니다. 
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
 <br />
 <br />
@@ -385,12 +385,12 @@ ex)
 $ pod update AFNetworking
 ```
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
 <br />
 <br />
 
-## [#2-1 def 사용](https://github.com/ClintJang/cocoapods-tips#2-1-def-사용)
+## [#2-1 def 사용](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#2-1-def-사용)
 
 
 아래와 같이 def-end 를 이용해서 사전 정의된 값을 가져와서 사용할 수 있습니다.
@@ -425,9 +425,9 @@ target '프로젝트명' do
   core_pods
 end
 ```
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
-## [#2-2 Debugging 에서만 사용하기](https://github.com/ClintJang/cocoapods-tips#2-2-Debugging-에서만-사용하기)
+## [#2-2 Debugging 에서만 사용하기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#2-2-Debugging-에서만-사용하기)
 
 Debugging-에서만-사용하기
 
@@ -439,9 +439,9 @@ or 다른 옵션도 가능하죠.
 ```
 pod '라이브러리명', '~> 4.0', :configurations => ['Debug']
 ```
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
-## [#2-3 git의 repository에서 직접 가져오기](https://github.com/ClintJang/cocoapods-tips#2-3-git의-repository에서-직접-가져오기)
+## [#2-3 git의 repository에서 직접 가져오기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#2-3-git의-repository에서-직접-가져오기)
 
 git에 직접 접근해서 가져오기
 
@@ -465,12 +465,12 @@ or 원하는 commit된 부분까지가 필요하다면?
 pod '라이브러리명', :git => 'https://github.com/라이브러리경로', :commit => '0e380832ab'
 ```
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
 <br />
 <br />
 
-## [#2-4 xcode에서 pods 프로젝트 경고 없애기](https://github.com/ClintJang/cocoapods-tips#2-4-xcode에서-pods-프로젝트-경고-없애기)
+## [#2-4 xcode에서 pods 프로젝트 경고 없애기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#2-4-xcode에서-pods-프로젝트-경고-없애기)
 
 Podfile에서 "inhibit_all_warnings!" 만 추가하면 간단하게 경고가 사라집니다.
 1. inhibit_all_warnings! 코드 추가 
@@ -503,12 +503,12 @@ $ pod install
 - 테스트해 본 상세 내용 : [링크 클릭!](https://github.com/ClintJang/cocoapods-tips/blob/master/JWSCocoapodsTips/Podfile)
 
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
 <br />
 <br />
 
-## [#3-1 코코아팟츠에 자신의 라이브러리 등록해본 과정](https://github.com/ClintJang/cocoapods-tips#3-1-코코아팟츠에-자신의-라이브러리-등록해본-과정)
+## [#3-1 코코아팟츠에 자신의 라이브러리 등록해본 과정](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#3-1-코코아팟츠에-자신의-라이브러리-등록해본-과정)
 > 2017년 10월 18일 테스트 진행했던 과정을 정리한 것입니다.
 
 참고한 유튜브 동영상 링크 : https://www.youtube.com/watch?v=gNMNeqXKnzw
@@ -597,4 +597,4 @@ git push -u origin master
  
 ```
 
-[Top으로 가기](https://github.com/ClintJang/cocoapods-tips#목차)
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
