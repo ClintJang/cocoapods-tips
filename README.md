@@ -58,6 +58,8 @@ swift는 버전이 계속 변하고 있습니다. 만약 라이브러리 개발�
 
 [#2-4 xcode에서 pods 프로젝트 경고 없애기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#2-4-xcode에서-pods-프로젝트-경고-없애기)<br />
 
+[#2-5 로컬 폴더에 라이브러리 소스를 다운받고 pods 라이브러리 연결하기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#2-5-로컬-폴더에-라이브러리-소스를-다운받고-pods-라이브러리-연결하기)<br />
+
 <br />
 <br />
 
@@ -502,6 +504,47 @@ $ pod install
 
 - 테스트해 본 상세 내용 : [링크 클릭!](https://github.com/ClintJang/cocoapods-tips/blob/master/JWSCocoapodsTips/Podfile)
 
+
+[Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
+
+<br />
+<br />
+
+## [#2-5 로컬 폴더에 라이브러리 소스를 다운받고 pods 라이브러리 연결하기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#2-5-로컬-폴더에-라이브러리-소스를-다운받고-pods-라이브러리-연결하기)
+> 회사 여건상, Github에 연결할 수 없다면..<br />
+혹은 Mac에 다운 받아 놓고, 그 경로의 소스를 연결하고 싶다면
+
+```
+pod '라이브러리명', :path => '내폴더기준에서 라이브러리 최상위 폴더 위치'
+```
+
+예시로 하나의 진행을 해보면.. (RxSwift 라이브러리 하위 버전이 필요하다면)
+
+1. [RxSwift Github 사이트](https://github.com/ReactiveX/RxSwift)에서 [Releases 탭](https://github.com/ReactiveX/RxSwift/releases)을 클릭합니다.
+
+<img width="537" height="186" src="/Image/pod_ path_ex_01.png"></img>
+
+2. 원하는 버전 (전 임의의 4.3.0 버전)의 소스 (Zip) 다운로드 
+
+<img width="244" height="260" src="/Image/pod_ path_ex_02.png"></img>
+
+3. 원하는 위치에 압축 풀기
+	* 예시를 위해 현재 프로젝트는 cocoapods-tips/JWSCocoapodsTips, 
+	* 예시를 위한 라이브러리 위치는 cocoapods-library/RxSwift-4.3.0에 설정
+
+<img width="325" height="94" src="/Image/pod_ path_ex_03.png"></img>	
+	 
+4. podfile 파일 수정 (해당 내용 추가)
+
+```
+pod 'RxSwift', :path => '../../cocoapods-library/RxSwift-4.3.0'
+```
+
+5. 끝으로 터미널에서 pod 명령어 실행 😀
+
+```
+$ pod install
+```
 
 [Top으로 가기](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md#목차)
 
