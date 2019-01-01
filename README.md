@@ -8,7 +8,7 @@
 - 내부에 모듈화 시켜서 사용하는 셈플도 메모하면서 넣어둘 예정입니다.
 > CocoaPods는 Swift 및 Objective-C 프로젝트의 라이브러리 관리자입니다. 45,000 개가 넘는 라이브러리가 있으며 300 만 개가 넘는 App에 사용됩니다. CocoaPod는 프로젝트에서 편리하게 라이브러리를 사용하는 데 도움을 줄 것입니다.
 
-- iOS에서는 추가로 Carthage(카르타고) 라는 비슷한 방식도 있습니다. 워크스페이스를 만드는 방식이 아닌 Embbed Framework를 이용하는 방식이죠.
+- iOS에서는 추가로 [**Carthage(카르타고)**](https://github.com/ClintJang/sample-ios-carthage) 라는 비슷한 방식도 있습니다. 워크스페이스를 만드는 방식이 아닌 Embbed Framework를 이용하는 방식이죠.
 - android에서의 Maven, Gradle 과 비슷하게 생각하시면 됩니다.
 <br /><br />
 >> 단, 너무 무분별할 라이브러리 사용은 지양합시다. <br />
